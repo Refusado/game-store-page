@@ -23,7 +23,7 @@ h1 {
 }
 
 main {
-    width: min(100vw, 1080px);
+    width: min(100vw, 768px);
     margin: 0 auto;
 }
 

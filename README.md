@@ -1,0 +1,1 @@
+Listagem de jogos de uma loja fictícia de jogos usando web components.

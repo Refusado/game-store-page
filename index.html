@@ -6,37 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Componentes</title>
     <link rel="stylesheet" href="src/styles/style.css">
-    <script src="src/components/DinamicTitle.js" defer></script>
-    <script src="src/components/PopupBox.js" defer></script>
-    <script src="src/components/gamecard.component.js"></script>
+    <!-- <script src="src/components/gamecard.component.js"></script> -->
+    <script src="src/components/gamecard.component.js" defer></script>
 </head>
 <body>
     <h1>Game Store</h1>
     <hr class="inicial-line">
     <main>
         <h2>Game list</h2>
-        <div class="card">
-            <div class="card__left">
-                <h3>Uncharted 4: A Thief's End</h3>
-                <p class="card__price">R$ 64,00</p>
-                <p>Companhia: Naughty Dog</p>
-            </div>
-            <div class="card__right">
-                <button>Ver mais</button>
-            </div>
-            <span class="card__cat">Ação-Aventura</span>
-        </div>
-        <div class="card">
-            <div class="card__left">
-                <h3>Uncharted 4: A Thief's End</h3>
-                <p class="card__price">R$ 64,00</p>
-                <p>Companhia: Naughty Dog</p>
-            </div>
-            <div class="card__right">
-                <button>Ver mais</button>
-            </div>
-            <span class="card__cat">Ação-Aventura</span>
-        </div>
+        <game-card
+            card-title="Uncharted 4: A Thief's End"
+            card-price="64.00"
+            card-compan="Naughty Dog"
+            card-category="Ação-Aventura"
+        ></game-card>
     </main>
 </body>
 </html>
